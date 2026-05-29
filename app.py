@@ -32,7 +32,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Hide deploy button, main menu, header, and footer (Problems 2 to 5)
+# Hide deploy button, main menu, header, and footer to streamline UI
 st.markdown("""
     <style>
         .stDeployButton { display: none !important; }
@@ -236,7 +236,7 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    # Problem 6 - Collapse Model Status Section in closed expander by default
+    # Model Status Section (collapsed by default)
     with st.sidebar.expander("📊 Model Status", expanded=False):
         st.markdown("🟢 **TextBlob Lexical Dictionary**: Active")
         if enable_bert:
@@ -259,7 +259,7 @@ if "user_text" not in st.session_state:
     st.session_state["user_text"] = ""
 
 # ----------------- Main Input Area -----------------
-# Problem 1 - Wrap widgets in border-enabled st.container() styled with glassmorphism CSS
+# Main interactive input area styled with glassmorphism container
 with st.container(border=True):
     st.markdown("### 📝 Enter Text to Correct")
     
