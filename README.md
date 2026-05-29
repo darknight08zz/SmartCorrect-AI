@@ -14,8 +14,23 @@ This hybrid design lets it fix not only direct misspellings (e.g., *beautifull* 
 
 Below is a visual preview of the running interactive Web Dashboard:
 
-![SmartCorrect AI Demo](https://raw.githubusercontent.com/streamlit/docs/main/assets/img/streamlit_app.png)
-*(Demo visual showing carbon dark glassmorphism styling, side-by-side comparative views, copy-to-clipboard blocks, and visual highlights.)*
+<p align="center">
+  <img src="public/ss1.png" width="100%" alt="SmartCorrect AI - Text Correction Interface" />
+  <br>
+  <em>Interactive Web App featuring beautiful carbon dark glassmorphism styling, side-by-side comparative views, and visual highlights.</em>
+</p>
+
+<p align="center">
+  <img src="public/ss2.png" width="100%" alt="SmartCorrect AI - Batch Processing" />
+  <br>
+  <em>Support for batch correction with downloadable DOCX / PDF reports and instant copy-to-clipboard utilities.</em>
+</p>
+
+<p align="center">
+  <img src="public/ss3.png" width="100%" alt="SmartCorrect AI - Detailed Grammar Diagnostics" />
+  <br>
+  <em>Under the hood: Deep learning model inference logs, candidates' edit-distance metrics, and contextual scoring visualizations.</em>
+</p>
 
 ---
 
