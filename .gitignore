@@ -58,10 +58,10 @@ venv.bak/
 # Application logs
 *.log
 
-# MS Office / OS temporary files
+# MS Office / OS temporary and generated files
 ~$*
 ~WRL*.tmp
-~*.docx
-~*.pdf
+*.docx
+*.pdf
 .DS_Store
 Thumbs.db
